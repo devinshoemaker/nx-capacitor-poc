@@ -1,0 +1,13 @@
+{
+  "defaultProject": "mobile-app",
+  "projects": {
+    "mobile-app": {
+      "name": "mobile-app",
+      "type": "react",
+      "root": "apps/mobile-app",
+      "integrations": {
+        "capacitor": {}
+      }
+    }
+  }
+}
