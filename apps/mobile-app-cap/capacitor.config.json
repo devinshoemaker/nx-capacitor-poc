@@ -1,0 +1,13 @@
+{
+  "appId": "com.example.mobileapp",
+  "appName": "Mobile App",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "../../dist/apps/mobile-app",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}
