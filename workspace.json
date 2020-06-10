@@ -110,6 +110,24 @@
           }
         }
       }
+    },
+    "mobile-app-cap": {
+      "root": "apps/mobile-app-cap",
+      "sourceRoot": "apps/mobile-app-cap/src",
+      "projectType": "application",
+      "architect": {
+        "add": {
+          "builder": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "node ../../node_modules/.bin/cap add android"
+              }
+            ],
+            "cwd": "apps/mobile-app-cap"
+          }
+        }
+      }
     }
   },
   "cli": {
